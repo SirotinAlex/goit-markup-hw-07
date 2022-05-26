@@ -107,19 +107,19 @@ color: var(--secondary-text-color);
 font-weight: 700;
 }
 
-.logo.link {
+.head__logo {
     margin-right: 93px;
     
 }
 
-.accent { 
+.head__accent { 
     color: var(--accent-color);
 }
 
 /* ссылки студия,портфолио,контакты,*/
 
-.nav-link,
-.contact-link {
+.menu__link,
+.menu__contact-link {
 padding-top: 32px;
 padding-bottom: 32px;
 display: block;
@@ -134,19 +134,19 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.contact-link:hover,
-.contact-link:focus,
+.menu__link:hover,
+.menu__link:focus,
+.menu__contact-link:hover,
+.menu__contact-link:focus,
 .current {
 color: var(--accent-color);
 }
 
-.nav-link.current {
+.menu__link.current {
     position: relative;
 }
 
-.nav-link.current::after {
+.menu__link.current::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -159,7 +159,7 @@ color: var(--accent-color);
 
 
 
-.header-item:not(:last-child) {
+.menu__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -168,13 +168,13 @@ color: var(--accent-color);
     align-items: center;
 }
 
-.nav-list,
-.contacts-list {
+.menu,
+.contacts__list {
     display: flex;
 align-items: center;
 }
 
-.contacts-list {
+.contacts__list  {
     margin-left: auto;
 }
 
@@ -188,22 +188,23 @@ align-items: center;
 
 /* емейл,телефон */
 
-.contact-link {
+.menu__contact-link {
 color: var(--primary-text-color);
 display: flex;
 align-items: center;
+margin-left: 10px;
 }
 
 
 
-.header-item .list {
+.menu__item.list {
     padding: 0px;
     margin-left: 0px;
 }
 
-.header-icon {
+.menu__header-icon {
     fill: currentColor;
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
 
@@ -516,7 +517,7 @@ background: #2F303A;
     padding: 60px 15px;
 }
 
-.adress-item {
+.adress__item {
     margin-bottom: 9px;
 }
 
@@ -528,7 +529,7 @@ display: block;
 
 }
 
-.adress-link {
+.footer-adress__link {
 font-size: 14px;
 line-height: 1.71;
 color: var(--primary-white-color);
@@ -542,7 +543,7 @@ color: var(--primary-white-color);
 
 
 
-.footer .contact-link {
+.contact__link{
 color:rgba(255, 255, 255, 0.6);
 font-weight: 400;
 line-height: 1.71;
@@ -550,10 +551,10 @@ padding: 0px;
 }
 
 
-.nav-link:hover,
-.nav-link:focus,
-.contact-link:hover,
-.contact-link:focus,
+/* .nav-link:hover,
+.nav-link:focus, */
+.contact__link:hover,
+.contact__link:focus,
 .current {
     color: var(--accent-color);
 }
@@ -571,7 +572,7 @@ padding: 0px;
     margin-left: 70px;
 }
 
-.footer-title {
+.soc__title {
     color: #ffffff;
     margin-bottom: 20px;
     justify-content:center;
@@ -585,17 +586,17 @@ padding: 0px;
 
 }
 
-.footer-soc-list {
+.footer-soc__list {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.footer-soc-item {
+.footer-soc__item {
     width: 44px;
     height: 44px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 50%;
     background-color:#3d3939;
     display: flex;
@@ -608,12 +609,12 @@ padding: 0px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-soc-item + .footer-soc-item {
+.footer-soc__item + .footer-soc__item {
     margin-left: 10px;
 
 }
 
-.footer-soc-link {
+.footer-soc__link {
     width: 20px;
     height: 20px;
     fill: #FFFFFF;
@@ -624,11 +625,11 @@ padding: 0px;
 }
 
 
-.footer-soc-item:hover {
+.footer-soc__item:hover {
     background-color: var(--accent-color);
 }
 
-.footer-soc-item:hover .footer-soc-icon {
+.footer-soc__item:hover .footer-soc__icon {
     fill: #F5F4FA;
     }
 
@@ -644,7 +645,7 @@ padding: 0px;
     align-items: center;
 }
 
-.footer-maling-par {
+.mailng__par {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -655,14 +656,14 @@ padding-bottom: 20px;
 margin-bottom: 10px;
 }
 
-.footer-button-icon {
+.footer-button__icon {
 width: 24px;
 height: 24px;
 fill: #ffffff;
 margin-left: 10px;
 }
 
-.footer-input {
+.footer__input {
 margin-right: 10px;
 width: 358px;
 height: 50px;
@@ -676,7 +677,7 @@ border-radius: 4px;
 background: #2F303A;
 }
 
-.footer-but {
+.footer__but {
 display: flex;
 align-items: center;
 justify-content: center;
