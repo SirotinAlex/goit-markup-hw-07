@@ -20,7 +20,7 @@ color: #212121;
     cursor: pointer;
     outline: none;
    
-    & :focus, 
+    &:focus, 
     &:hover {
     border-color: var(--accent-color);
    }
@@ -87,11 +87,11 @@ margin-bottom: 4px;
     transform: translateY(-50%);
    
     
-.modal_input:focus+ &, 
-.modal_input:hover+ & {
+.modal_input:focus + &, 
+.modal_input:hover + & {
     fill: var(--accent-color);
     
-    
+}
 }
 
 .check-text {
@@ -102,7 +102,7 @@ margin-bottom: 4px;
 
 .check-icon {
     fill: transparent;
-    .modal-check:checked + .check-text &{
+    .modal-check:checked + .check-text & {
         fill: var(--primary-white-color);
     }
     
