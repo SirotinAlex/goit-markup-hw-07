@@ -1,0 +1,39 @@
+
+.about-subtitle {
+    margin-bottom: 10px;
+margin-top: 0px;
+font-size: 14px;
+line-height: 1.14;
+color: var(--secondary-text-color);
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.about-list {
+    margin-top: 0px;
+margin-bottom: 0px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.about-description {
+   line-height: 1.71;
+}
+
+.about-item {
+   width: 270px;
+ 
+}
+
+.about-soc-list {
+    width: 100%;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,3 +1,19 @@
-// body{
-//     background-color: aqua;
-// }
+@import "./utils/variables";
+@import "./base/reset";
+@import "./componenets/container";
+@import "./utils/vshidden";
+@import "./componenets/logo";
+@import "./componenets/header";
+@import "./componenets/button";
+@import "./componenets/hero";
+@import "./componenets/modal";
+@import "./componenets/modal.goods";
+
+@import "./layout/aboutsec";
+@import "./layout/worksec";
+@import "./layout/team";
+@import "./layout/customers";
+@import "./layout/portfolio";
+@import "./layout/animportfoliocard";
+@import "./layout/footer";
+@import "./layout/footermail";
