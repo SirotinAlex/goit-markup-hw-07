@@ -125,7 +125,7 @@ justify-content: center;
 }
 
 
-.modal-check:checked + .check-text &{
+.modal-check:checked + .check-text .check-icon{
     fill: var(--primary-white-color);
 }
 

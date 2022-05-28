@@ -458,7 +458,9 @@ fill: #F5F4FA;
 .customers-list-item {
     width: 170px;
     height: 92px;
-
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    outline: none;
      
 }
 
@@ -475,8 +477,8 @@ background-color: #FFFFFF;;
 display: flex;
 align-items: center;
 justify-content: center;
-border: 1px solid #AFB1B8;
 border-radius: 4px;
+
 
 }
 
