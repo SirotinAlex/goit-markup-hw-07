@@ -347,6 +347,11 @@ h1, h2, h3, h4, h5, h6, p {
   transform: translateY(-50%);
 }
 
+.modal-input:focus + .modal-icon,
+.modal-input:hover + .modal-icon {
+  fill: var(--accent-color);
+}
+
 .modal_input:focus + .modal-icon,
 .modal_input:hover + .modal-icon {
   fill: var(--accent-color);

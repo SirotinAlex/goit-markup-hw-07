@@ -24,16 +24,9 @@ color: #212121;
     &:hover {
     border-color: var(--accent-color);
    }
-
-
 }
 
 
-// .modal-input:focus+ .modal-icon, 
-// .modal-input:hover+ .modal-icon {
-//     fill: var(--accent-color);
-    
-// }
 .modal-field {
     margin-bottom: 10px;
 }
@@ -47,9 +40,7 @@ letter-spacing: 0.01em;
 color: #757575;
 display: block;
 margin-bottom: 4px;
-
 }
-
 
 
 .modal-text {
@@ -70,11 +61,6 @@ margin-bottom: 4px;
 
 }
 
-// .modal-text:hover,
-// .modal-text:focus{
-//     border: 1px solid #2196F3;
-// }
-
 
 .modal-field-wrap {
     position: relative;
@@ -85,12 +71,15 @@ margin-bottom: 4px;
     left: 11px;
     top: 50%;
     transform: translateY(-50%);
+
+    .modal-input:focus+ &, 
+.modal-input:hover+ & {
+    fill: var(--accent-color);
+}
    
-    
 .modal_input:focus + &, 
 .modal_input:hover + & {
     fill: var(--accent-color);
-    
 }
 }
 
